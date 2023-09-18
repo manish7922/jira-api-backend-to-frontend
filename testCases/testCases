@@ -1,0 +1,33 @@
+first to check the fetch Api check
+
+task 1
+
+Fetch Tickets(GET /fetchTickets):
+.Verify that the API can successfully fetch tickets from the Jira API.
+.the fetched tickets are correctly parsed and saved into the database.
+.fetch tickets to on function to check the mumber alredy save database to return the   function to ticket number then data correcty parsed and update to database
+.Check how the API handles errors from the Jira API or database connection.
+
+task 2
+
+Close Issue(POST /closeIssue/:key):
+.Test the endpoint by sending a POST request with a valid issue key.
+. issue's status is successfully updated using the Jira API.
+.a comment is added to the issue using the provided request body call the jira api comment and sucessfully send the response.
+.both valid and invalid issue keys to check error handling.
+
+task 3 
+
+getTickets database show in UI then react App:
+.send tickets api in fetch to database.
+.call the api in frontend in sucessfully send the response.
+.then use UI show the react app  in table.
+.handling of database query errors.
+
+
+task 4
+
+add to button fetch refresh and re-load :
+.then click the button fetch tickets then refresh and reload sucessfully.
+.then updated data put  into the  database is  sucessfully
+
